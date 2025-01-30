@@ -32,3 +32,4 @@ function chatApp(e){
     message.value = "";    
    }    
 }
+// nimadir yangi 
