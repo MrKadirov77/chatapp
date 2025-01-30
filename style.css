@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main{
+    max-width: 60%;
+    height: 400px;
+    background: antiquewhite;
+    border-radius: 12px;
+    padding: 20px;
+
+}
+.title{
+    text-align: center;
+}
+.messages{
+    margin: 15px 0;
+    width: 100%;
+    height: 250px;
+    background-color: #fff;
+    border-radius: 6px;
+    padding: 20px;
+    overflow-y: scroll;
+}
+.form__box{
+    width: 100%;
+    height: 50px;
+    background-color: #f0a23c;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:  15px ;
+}
+.message{
+    width: 70%;
+    height: 35px;
+    padding-left: 2%;
+    font-size: 18px;
+}
+.sendBtn{
+    width: 100px;
+    height: 35px;
+    font-size: 18px;
+}
+.messageTitle{
+    text-align: right;
+    font-size: 18px;
+}
+.timeteg{
+    display: block;
+    text-align: right;
+}
